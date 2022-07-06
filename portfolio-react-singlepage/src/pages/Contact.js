@@ -33,4 +33,4 @@ function Contact() {
   );
 }
 
-export default Portfolio;
+export default Contact;

@@ -7,7 +7,7 @@ function Work() {
             <div className="max-w-7xl  mx-auto items-center  py-24 px-4 grid grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-1">
               <div>
                 <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">Work Experience</h2>
-                <p className="mt-4 text-gray-500">Overall 15 years of experience in Software Engineering. Experience as SDET, Developer, Test Lead. </p>
+                <p className="mt-4 text-gray-500">A brief summary of roles over the years.</p>
           
                 <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                   <div className="border-t border-gray-200 pt-4">

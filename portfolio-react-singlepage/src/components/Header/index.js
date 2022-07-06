@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
+import resume from '../../assets/files/Megha kulathattil sample.pdf';
+
 function Header() {
-
-
     return (
       <header>
           <nav className="bg-gray-800">
@@ -9,16 +10,16 @@ function Header() {
               <div className="flex items-center">                
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
-                  
-                    <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">About Me</a>
+          
+                    <Link to="/" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">About Me</Link>
       
-                    <a href="#portfolio" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
+                    <Link to="/portfolio"  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfolio</Link>
       
-                    <a href="#workExperience" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Work Experience</a>
+                    <Link to="/work"  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Work Experience</Link>
       
-                    <a href="./assets/files/Megha kulathattil sample.pdf" target="_blank"  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Resume</a>
+                    <a href={resume} target="_blank"  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Resume</a>
       
-                    <a href="#contactMe" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Me</a>
+                    <Link to="/contact"  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Me</Link>
                   </div>
                 </div>
               </div>             
