@@ -2,34 +2,94 @@ function Contact() {
 
 
     return (
-    <section id="contactMe">
-    <div class="bg-white shadow overflow-hidden sm:rounded-lg max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="px-4 py-5 sm:px-6">
-          <h3 class="text-lg leading-6 font-medium text-gray-900">Contact Me</h3>
+      <div className="block p-6 rounded-lg shadow-lg bg-white max-w">
+      <form className="grid grid-rows-3 grid-flow-col gap-4">
+        <div className="form-group mb-6 row-span-1">
+          
+          <input type="text" required className="form-control block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="username"
+            placeholder="name"/>
         </div>
-        <div class="border-t border-gray-200">
-          <dl>
-            <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-              <dt class="text-sm font-medium text-gray-500">Contact Number</dt>
-              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">555.555.555</dd>
-            </div>
-            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-              <dt class="text-sm font-medium text-gray-500">LinkedIn</dt>
-              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">LinkedIn Profile</dd>
-            </div>
-            <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-              <dt class="text-sm font-medium text-gray-500">Email address</dt>
-              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2"><a href="mailto:megha.nambiar@gmail.com">megha.nambiar@gmail.com</a></dd>
-            </div>
-            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-              <dt class="text-sm font-medium text-gray-500">Github Link</dt>
-              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2"><a href="https://github.com/meghark" target="_blank">Github</a></dd>
-            </div>                       
-          </dl>
-        </div>
-      </div>
 
-</section>
+        <div className="form-group mb-6 row-span-1">
+         
+          <input type="email" className="form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInputEmail1"
+            aria-describedby="emailHelp" required placeholder="Enter email"/>
+       
+        </div>
+        <button type="submit" className="
+          row-span-1
+          
+          px-6
+          py-2.5
+          bg-blue-600
+          text-white
+          font-medium
+          text-xs
+          leading-tight
+          uppercase
+          rounded
+          shadow-md
+          hover:bg-blue-700 hover:shadow-lg
+          focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
+          active:bg-blue-800 active:shadow-lg
+          transition
+          duration-150
+          ease-in-out">Submit</button>  
+       
+    
+    <textarea
+      className=" row-span-3
+        col-span-5
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+      id="msgbox"
+      required
+      rows="5"
+      placeholder="Your message"></textarea>
+
+       
+      </form>
+    </div>
   );
 }
 

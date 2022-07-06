@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 ">
-    <div className="max-w-7xl w-full space-y-8">
+    <div className="max-w-7xl w-full space-y-8 bg-gray-100">
     <Router>
       <div className="flex flex-col h-screen justify-between">
         <Header></Header>
@@ -33,6 +33,10 @@ function App() {
               <Route
                 path="/work"
                 element={<Work />}
+              />
+              <Route
+                path="/resume"
+                element={<Resume />}
               />
           </Routes>
         </main>
