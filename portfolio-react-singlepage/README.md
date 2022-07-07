@@ -27,10 +27,10 @@ The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ## Website
-https://meghark.github.io/portfolio/
+https://meghark.github.io/portfolio-react-tailwind-singlepage/
 
 ## Website screenshot
-![Mockup for finished website](./src/assets/images/portfolio.PNG)
+![Mockup for finished website](./src/assets/images/portfolioscreenshot.png)
 
 ## Contribution
 Created by Megha Kulathattil.
