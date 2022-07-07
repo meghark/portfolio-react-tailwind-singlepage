@@ -23,6 +23,10 @@ function App() {
         <Header></Header>
         <main>
           <Routes>
+          <Route
+                path="*"
+                element={<About />}
+              />
             <Route
                 path="/"
                 element={<About />}
