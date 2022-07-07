@@ -1,5 +1,8 @@
 import ProjectList from '../components/ProjectList';
 
+// Page displays 6 of the portfolios. The project data is stored as an array for easier maintenance.
+// Repeated sections in page is populated via projectlist component.
+
 const projects = [{
     title: "Tech Up Work",
     imgsrc : 'assets/images/TechUpWork.png',

@@ -1,5 +1,7 @@
 function Contact() {
 
+   // Contact form with option to provide mandatory fields name, email and message.
+   // Includes appropraite validations for the input.
 
     return (
       <div className="block p-6 rounded-lg shadow-lg bg-white max-w">

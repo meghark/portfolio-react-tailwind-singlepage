@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 
-
+// Header available in each page.
+// Will have links to various sections via react-router.
+// Use of react-router takes the users to approriate screens without page reload.
 function Header() {
     return (
       <header>

@@ -1,6 +1,6 @@
+// This page includes the work histort over the years.
+
 function Work() {
-
-
     return (
         <section id="workExperience">
         <div className="bg-white">

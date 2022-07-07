@@ -1,5 +1,7 @@
 import profilePic from "../assets/images/Avatar.jpg";
 
+// This page is the default landing page. Includes a short summary of the user proile.
+
 function About() {
     return (
       <section>

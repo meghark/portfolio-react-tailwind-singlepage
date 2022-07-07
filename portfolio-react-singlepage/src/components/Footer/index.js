@@ -1,7 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+// Import icons for twitter, github and linkedin.
 import { faTwitterSquare, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
+
+// Footer is always displayed.
+// Clicking on brand images will take user's to the respective websites.
 const Footer = () => {
   return (
     <footer className="text-center  bg-gray-100 ">

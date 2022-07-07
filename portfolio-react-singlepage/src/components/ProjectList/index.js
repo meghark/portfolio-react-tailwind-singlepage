@@ -1,6 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faGithub} from "@fortawesome/free-brands-svg-icons";
+
+// Component to create repeated project section. Avoids code duplication for similar looking projects.
+// Receives project data array as input.
+// Each project details is plugged into the html tags.
+// Used a card with image to display each project. The cards will have an image of deployed app, links to github and deployed app.
+
 const ProjectsList = ({ projects }) => {
     return (
         <div className="grid grid-cols-3 gap-4">
