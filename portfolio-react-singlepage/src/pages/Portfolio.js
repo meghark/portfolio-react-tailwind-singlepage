@@ -2,7 +2,7 @@ import ProjectList from '../components/ProjectList';
 
 const projects = [{
     title: "Tech Up Work",
-    imgsrc : 'assets/images/Tech Up Work.png',
+    imgsrc : 'assets/images/TechUpWork.png',
     github: "https://github.com/meghark/tech-upwork",
     url: "https://ancient-reef-53037.herokuapp.com/",
     alt: "Tech Up Work Image"
