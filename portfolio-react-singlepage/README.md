@@ -16,9 +16,9 @@ The website provides an online resume for me.
 * TailwindCSS
 
 ## Run the application
-Clone Repo.
-Run npm i.
-Run npm start`
+* Clone Repo.
+* Run npm i.
+* Run npm start`
 
 Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -30,7 +30,7 @@ You may also see any lint errors in the console.
 https://meghark.github.io/portfolio/
 
 ## Website screenshot
-![Mockup for finished website](./assets/images/portfolio.PNG)
+![Mockup for finished website](./src/assets/images/portfolio.PNG)
 
 ## Contribution
 Created by Megha Kulathattil.
