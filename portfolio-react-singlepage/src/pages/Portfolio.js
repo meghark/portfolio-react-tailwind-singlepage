@@ -3,33 +3,46 @@ import ProjectList from '../components/ProjectList';
 const projects = [{
     title: "Tech Up Work",
     imgsrc : 'assets/images/Tech Up Work.png',
-    url: "https://github.com/ravnishgupta/tech-upwork",
+    github: "https://github.com/meghark/tech-upwork",
+    url: "https://ancient-reef-53037.herokuapp.com/",
     alt: "Tech Up Work Image"
   },
   {
     title: "Event Finder",
     imgsrc : 'assets/images/eventFinder.JPG',
-    url: "https://psyche-l.github.io/event-finder/",
+    github: "https://github.com/meghark/event-finder",
+    url: "https://meghark.github.io/event-finder/",
     alt: "Event Finder Image"
   },
   {
     title: "Weather App",
     imgsrc : 'assets/images/weather.JPG',
+    github: "https://github.com/meghark/weather-current-5dayforecast",
     url: "https://meghark.github.io/weather-current-5dayforecast/",
     alt: "Weather App Image"
   },
   {
     title: "Online Quiz",
     imgsrc : 'assets/images/onlineQuiz.JPG',
+    github: "https://github.com/meghark/quiz-html-css-js-webapi",
     url: "https://meghark.github.io/quiz-html-css-js-webapi/",
     alt: "Online Quiz Image"
   },
   {
     title: "Workday Scheduler",
     imgsrc : 'assets/images/workDay.JPG',
+    github: "https://github.com/meghark/daily-task-manager-jquery-bootstrap",
     url: "https://meghark.github.io/daily-task-manager-jquery-bootstrap/",
     alt: "Workday Scheduler Image"
+  },
+  {
+    title: "Online Profile",
+    imgsrc : 'assets/images/portfolio.PNG',
+    github: "https://github.com/meghark/portfolio",
+    url: "https://meghark.github.io/portfolio/",
+    alt: "Online profile Image"
   }
+
 ]
 
 

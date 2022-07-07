@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import resume from '../../assets/files/Megha kulathattil sample.pdf';
+
 
 function Header() {
     return (

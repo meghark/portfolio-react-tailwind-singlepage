@@ -1,5 +1,8 @@
 import resume from '../assets/files/Megha kulathattil sample.pdf';
 
+// The page will display a card with the list of technical skills.
+// There is an option to download the resume as well.
+
 function Resume() {
     return (
 

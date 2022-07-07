@@ -1,4 +1,5 @@
-
+//Import all pages and components for the page
+//Import router from react-router
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -8,6 +9,10 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Work from './pages/Work';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+// This will be single page application , will display About by default.
+// The routes define the pages that will be displayed when user uses the navbar.
+// The page will have the same header and footer. The main content will change based on the clicked links. 
 
 function App() {
   return (
