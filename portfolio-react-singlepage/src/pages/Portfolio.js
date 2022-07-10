@@ -3,8 +3,16 @@ import ProjectList from '../components/ProjectList';
 // Page displays 6 of the portfolios. The project data is stored as an array for easier maintenance.
 // Repeated sections in page is populated via projectlist component.
 
-const projects = [{
-    title: "Tech Up Work",
+const projects = [
+  {
+    title: "Get-a-job- MERN",
+    imgsrc : 'assets/images/getajob.png',
+    github: "https://github.com/ravnishgupta/get-a-job",
+    url: "https://agile-plateau-35687.herokuapp.com/",
+    alt: "Get-a-Job Image"
+  },
+  {
+    title: "Tech Up Work - MVC",
     imgsrc : 'assets/images/TechUpWork.png',
     github: "https://github.com/meghark/tech-upwork",
     url: "https://ancient-reef-53037.herokuapp.com/",
