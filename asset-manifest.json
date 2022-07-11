@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-react-tailwind-singlepage/static/css/main.6a72c2bf.css",
-    "main.js": "/portfolio-react-tailwind-singlepage/static/js/main.bdcfb53b.js",
+    "main.js": "/portfolio-react-tailwind-singlepage/static/js/main.ba635511.js",
     "static/js/787.35dcc726.chunk.js": "/portfolio-react-tailwind-singlepage/static/js/787.35dcc726.chunk.js",
     "static/media/TechUpWork.png": "/portfolio-react-tailwind-singlepage/static/media/TechUpWork.583dd04ee47a18bd3875.png",
+    "static/media/getajob.png": "/portfolio-react-tailwind-singlepage/static/media/getajob.c8311a29a220f28bebd6.png",
     "static/media/portfolio.PNG": "/portfolio-react-tailwind-singlepage/static/media/portfolio.c99e5a30956f7bc4b0c0.PNG",
     "static/media/portfolioscreenshot.png": "/portfolio-react-tailwind-singlepage/static/media/portfolioscreenshot.e8fa0a92042e45b3a13a.png",
     "static/media/Avatar.jpg": "/portfolio-react-tailwind-singlepage/static/media/Avatar.cbd215f4fc77dbfc6a7a.jpg",
@@ -15,11 +16,11 @@
     "static/media/weather.JPG": "/portfolio-react-tailwind-singlepage/static/media/weather.309d13388d50d55ee54b.JPG",
     "index.html": "/portfolio-react-tailwind-singlepage/index.html",
     "main.6a72c2bf.css.map": "/portfolio-react-tailwind-singlepage/static/css/main.6a72c2bf.css.map",
-    "main.bdcfb53b.js.map": "/portfolio-react-tailwind-singlepage/static/js/main.bdcfb53b.js.map",
+    "main.ba635511.js.map": "/portfolio-react-tailwind-singlepage/static/js/main.ba635511.js.map",
     "787.35dcc726.chunk.js.map": "/portfolio-react-tailwind-singlepage/static/js/787.35dcc726.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a72c2bf.css",
-    "static/js/main.bdcfb53b.js"
+    "static/js/main.ba635511.js"
   ]
 }
